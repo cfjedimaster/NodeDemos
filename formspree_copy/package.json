@@ -1,0 +1,16 @@
+{
+  "name": "formspree_copy",
+  "version": "1.0.0",
+  "description": "A simple copy of Formspree",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raymond Camden",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodemailer": "^2.6.4"
+  }
+}
