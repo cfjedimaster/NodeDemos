@@ -19,6 +19,13 @@ app.get('/test', function(req, res) {
 	});
 });
 
+app.get('/test2', function(req, res) {
+	res.render('test2', {
+		title:'Welcome to Snowball',
+		layout:false
+	});
+});
+
 // 500 error handler (middleware)
 app.use(function(err, req, res, next){
 	console.error(err.stack);
